@@ -16,7 +16,7 @@ public class firebaseconfig{
     public Firestore initialize() throws IOException{
 
         FileInputStream serviceAccount =
-        new FileInputStream("/home/rohithkakarla30/Documents/Items/bigbuzzz-b05ae-firebase-adminsdk-3tlh2-3211797598.json");
+        new FileInputStream("bigbuzzz-b05ae-firebase-adminsdk-3tlh2-3211797598.json");
 
 
         GoogleCredentials credentials = GoogleCredentials.fromStream(serviceAccount);
